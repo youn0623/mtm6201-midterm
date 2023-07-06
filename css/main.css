@@ -1,0 +1,254 @@
+/* body styling */
+body {
+    background-color: #6C3494;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+/* top logo */
+  .logo{
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+/* top heading */
+  h1{
+    text-align: center;
+  }
+/* navigation style */
+
+nav{
+    background-color: #CDDC29;
+    border: 1px solid #CDDC29;
+    text-decoration: none;
+}
+
+.menu-2 a:hover,
+.menu-2 a:focus{
+    background-color: #6C3494;
+    color: #CDDC29;
+    text-decoration: none;
+}
+
+.menu-head:active{
+background-color: #6C3494;
+color: #CDDC29;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: block;
+}
+.menu a {
+    display: flex;
+    padding: 1em 0;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: #6C3494;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu a .menu a:link,
+.menu a:visited {
+    display: flex;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.menu li:nth-child(1) {
+    background-color: #CDDC29;
+}
+
+#navbar ul li{
+    list-style-type: none;
+}
+
+.menu{
+    padding-left: 0;
+}
+
+/* nav list animation */
+  
+.menu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    padding-left: 0;
+  }
+  
+  .menu ul {
+    height: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s ease;
+    padding-left: 0;
+  }
+  
+  .menu li:hover ul {
+    height: 245px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+/* matcha heading */
+.banner-header {
+    /* adding background image to banner */
+    background-image: url(../Image_1.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+/* styling banner box */
+.banner-box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(2, 2, 2, 0.5);
+    padding: 2em;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* h3 styling */
+h3{
+    text-align: center;
+    margin: 5px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+/* styling banner button */
+.btn {
+    background-color: #6C3494;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+}
+
+/* button animation */
+.btn:active{
+    background-color: #CDDC29;
+    color: black;
+    transition: .5s ease;
+}
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Optional: Adjust spacing and alignment of elements */
+  .sec-three > * {
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Style the button */
+  #buttons {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .cont-head{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  /* About us section */
+.about-us{
+    text-align: center;
+    background-color: #CDDC29;
+    color: black;
+    padding: 15px;
+}
+  
+.about-text{
+    font-size: 12px;
+    text-align: left;
+}
+
+.sec-two{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.cake{
+    border: 2px solid #CDDC29;
+    margin: 0 auto;
+    display: block;
+}
+
+.flavour-heading{
+    text-align: center;
+}
+
+.flavourtown{
+    font-size: 12px;
+}
+
+/* section 3 */
+.sec-three{
+    background-color: #CDDC29;
+    color: black;
+    align-items: center;
+}
+
+h4{
+    padding-top: 20px;
+    font-size: 20px;
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+/* table style */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+th {
+    background-color: #CDDC29;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+    background-color: #CDDC29;
+    color: #6C3494;
+}
+  
