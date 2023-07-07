@@ -101,7 +101,7 @@ color: #CDDC29;
 /* matcha heading */
 .banner-header {
     /* adding background image to banner */
-    background-image: url(../Image_1.png);
+    background-image: url(../images/Image_1.png);
     background-size: cover;
     background-position: center;
     height: 400px;
