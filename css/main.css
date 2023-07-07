@@ -7,6 +7,11 @@ body {
     font-family: Arial, sans-serif;
   }
 
+  /* paragraph styling */
+  P{
+    line-height: 25px;
+  }
+
 /* top logo */
   .logo{
     background-size: cover;
@@ -19,6 +24,8 @@ body {
 /* top heading */
   h1{
     text-align: center;
+    font-size: 40px;
+    padding: 20px;
   }
 /* navigation style */
 
@@ -128,16 +135,16 @@ h3{
     text-align: center;
     margin: 5px;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* styling banner button */
 .btn {
     background-color: #6C3494;
-    padding: 10px;
+    padding: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 10px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
     align-self: center;
@@ -172,8 +179,9 @@ h3{
   }
 
   .cont-head{
-    margin: 0;
-    margin-bottom: 10px;
+ margin-bottom: 40px;
+ margin-top: 40px;
+ padding-top: 0;
   }
 
   /* About us section */
@@ -183,10 +191,16 @@ h3{
     color: black;
     padding: 15px;
 }
+
+/* h2 styling */
+
+h2{
+    font-size: 40px;
+}
   
 .about-text{
-    font-size: 12px;
-    text-align: left;
+    font-size: 15px;
+    text-align: center;
 }
 
 .sec-two{
@@ -205,7 +219,29 @@ h3{
 }
 
 .flavourtown{
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu-btn {
+    background-color: #CDDC29;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the text within the button */
+    width: 20%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.menu-btn:active{
+    background-color: #6C3494;
+    color: white;
+    transition: .5s ease;
 }
 
 /* section 3 */
@@ -213,13 +249,6 @@ h3{
     background-color: #CDDC29;
     color: black;
     align-items: center;
-}
-
-h4{
-    padding-top: 20px;
-    font-size: 20px;
-    align-self: center;
-    padding-bottom: 15px;
 }
 
 /* table style */
@@ -242,6 +271,13 @@ td {
 th {
     background-color: #CDDC29;
     text-align: center;
+}
+
+/* contact us send button, adding margin*/
+
+.send{
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 /* footer */
