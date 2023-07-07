@@ -42,9 +42,8 @@ nav{
     text-decoration: none;
 }
 
-.menu-head:active{
-background-color: #6C3494;
-color: #CDDC29;
+.menu-head{
+    font-weight: bold;
 }
 
 .menu ul {
@@ -287,4 +286,8 @@ footer{
     background-color: #CDDC29;
     color: #6C3494;
 }
-  
+
+/* -------------------------------
+----------Contact section---------
+------------------------------- */
+
