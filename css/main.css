@@ -13,6 +13,7 @@ body {
     line-height: 25px; /* Sets the line height of paragraphs */
     align-items: center; /* Aligns items vertically */
     padding: 10px;
+    font-size: 15px;
   }
   
   /* top logo */
@@ -170,7 +171,7 @@ body {
     margin-bottom: 10px; /* Adds bottom margin to the child elements */
   }
   
-  /* Optional: Style the button */
+  /* Style the button */
   #buttons {
     background-color: white; /* Sets the background color of the button */
     color: black; /* Sets the text color to black */
@@ -363,11 +364,10 @@ h5{
 }
 
 .spec{
-    padding: 0;
     margin: 0;
-    padding-left: 10px;
+    padding: 2rem;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
