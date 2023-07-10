@@ -23,7 +23,7 @@ body {
     max-height: 100%; /* Sets the maximum height of the element to 100% */
     display: flex; /* Enables flexbox layout */
     align-items: center; /* Aligns items vertically */
-    max-width: 100%; /* Sets the maximum width of the element to 100% */
+    width: 100%; /* Sets the maximum width of the element to 100% */
   }
   
   /* top heading */
@@ -211,9 +211,8 @@ body {
   }
   
   .cake {
-    border: 2px solid #CDDC29; /* Sets a border around the cake image */
+    border: 1px solid #CDDC29; /* Sets a border around the cake image */
     margin: 0 auto; /* Centers the cake image horizontally */
-    display: block; /* Displays the cake image as a block element */
     width: 100%; /* Sets the width of the cake image to 100% */
   }
   
@@ -267,7 +266,7 @@ body {
   
   th,
   td {
-    border: 2px solid black; /* Sets a border around the table cells */
+    border: 1px solid black; /* Sets a border around the table cells */
     padding: 15px; /* Adds padding around the table cells */
   }
   
@@ -383,3 +382,6 @@ h5{
     margin-top: 20px;
 }
   
+/* --------------------------------
+    Image resizing section
+-----------------------------------*/

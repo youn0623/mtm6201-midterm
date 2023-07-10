@@ -13,7 +13,11 @@
 
   <!-- header section -->
   <header>
-    <img class="logo" src="images/logo.png" alt="Logo">
+    <picture>
+        <source srcset="images/logo320.png" media="(max-width: 479px)">
+        <source srcset="images/logo480.png" media="(min-width: 480px)">
+        <img class=logo src="images/logo320.png" alt="placeholder">
+    </picture>
     <h1 id="title">Welcome</h1>
    
     <!-- adding nav section -->
@@ -59,8 +63,12 @@
   <!-- infor about flavour for each mood -->
   <section class="sec-two">
 
-      <img class=cake src="images/AdobeStock_144940917.png" alt="">
-
+    <picture>
+        <source srcset="images/cake320.png" media="(max-width: 479px)">
+        <source srcset="images/cake480.png" media="(min-width: 480px)">
+        <img class=cake src="images/cake320.png" alt="placeholder">
+    </picture>
+    
     <h2 class="flavour-heading">Mood Flavour</h2>
 
     <div id="flavour-content">

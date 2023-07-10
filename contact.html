@@ -10,7 +10,11 @@
 <body>
       <!-- header section -->
   <header>
-    <img class="logo" src="/images/logo.png" alt="Logo">
+    <picture>
+        <source srcset="images/logo320.png" media="(max-width: 479px)">
+        <source srcset="images/logo480.png" media="(min-width: 480px)">
+        <img class=logo src="images/logo320.png" alt="placeholder">
+    </picture>
    
     <!-- adding nav section -->
     <nav>
