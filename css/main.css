@@ -383,5 +383,57 @@ h5{
 }
   
 /* --------------------------------
-    Image resizing section
+    skip link style
 -----------------------------------*/
+/* adding top of page skip link for main content */
+.skip-link {
+    position: absolute;
+    top: 14.8em;
+    left: .5px;
+    background-color: #CDDC29;
+    color: #6C3494;
+    padding: 10px;
+    z-index: 9999;
+  }
+/* adding bottom page skip link that bring you back to top of */
+.skip-link2{
+        position: absolute;
+        right: 1px;
+        background-color: #6C3494;
+        color: #CDDC29;
+        padding: 10px;
+        z-index: 9999;
+}
+
+/* ---------------------
+--------animation-------
+--------------------- */
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6C3494;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    animation: shake 1s infinite;
+  }

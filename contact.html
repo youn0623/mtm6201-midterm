@@ -13,20 +13,20 @@
     <picture>
         <source srcset="images/logo320.png" media="(max-width: 479px)">
         <source srcset="images/logo480.png" media="(min-width: 480px)">
-        <img class=logo src="images/logo320.png" alt="placeholder">
+        <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
     </picture>
    
     <!-- adding nav section -->
-    <nav>
+    <nav role="navigation">
       <ul class="menu">
         <li><a class="menu-head">Menu</a>
         <ul class="menu-2">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="info.html">About</a></li>
-        <li><a href="#">Catering</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Order Online</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html" role="menuitem">Home</a></li>
+        <li><a href="info.html" role="menuitem">About</a></li>
+        <li><a href="#" role="menuitem">Catering</a></li>
+        <li><a href="#" role="menuitem">Products</a></li>
+        <li><a href="#" role="menuitem">Order Online</a></li>
+        <li><a href="contact.html" role="menuitem">Contact</a></li>
       </ul>
     </li>
       </ul>
@@ -34,18 +34,17 @@
 
   </header>
       
-    <section class="contact-section">
+    <section class="contact-section" role="region">
         <div class="contact-info">
             <h2>Contact</h2>
             <p class="about-text">For inquiries, orders, or any other questions, please feel free to reach out to us. We would be happy to assist you.</p>
             <ul class="contact-type">
-                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <li><strong>Phone:</strong> +1 (613)-256-9844</li>
                 <li><strong>Email:</strong> info@dougbermanbakery.com</li>
             </ul>
         </div>
       
-        <section class="sec-three">
-
+        <section class="sec-three" role="region" aria-labelledby="cont-head">
             <h3 class="cont-head">Message Us</h3>
             <label for="fullname" class="full-name">Full Name</label>
             <input class="in-put" type="text" class="fullname" name="fullname">
@@ -59,8 +58,8 @@
             <button class="send" type="submit">Send</button>
         </section>
 
-    <div class="Locate" id="map-container">
-        <h3 class="cont-head">Location</h3>
+    <div class="Locate" id="map-container" role="region" aria-labelledby="location-heading">
+        <h3 class="cont-head" id="location-heading">Location</h3>
         <ul class="locate-details">
             <li><strong>Address:</strong> 35 Martin St, Almonte, Ontario</li>
             <li><strong>Hours:</strong> 9am-6pm</li>
@@ -68,7 +67,7 @@
         <map name="place"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.940078431784!2d-76.1919508!3d45.2287798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd21a8efbbca777%3A0xa4763ef4ad6935a9!2s35%20Martin%20St%20S%2C%20Almonte%2C%20ON%20K0A%201A0!5e0!3m2!1sen!2sca!4v1688766287062!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></map>
     </div>
       
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
        &copy; Kouj, 2023.
     </footer>
 </body>
