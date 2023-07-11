@@ -10,14 +10,19 @@
 </head>
 
 <body>
+    <!-- adding a skiplink -->
     <a id=top class="skip-link" href="#content">Skip to main content</a>
   <!-- header section -->
   <header>
+    <!-- adding logo picture to website -->
     <picture>
+        <!-- adding different image sizes for easier loading speeds -->
         <source srcset="images/logo320.png" media="(max-width: 479px)">
         <source srcset="images/logo480.png" media="(min-width: 480px)">
         <img class=logo src="images/logo.png" alt="doughberman-company-logo">
     </picture>
+
+    <!-- adding h1 -->
     <h1 id="title">Welcome</h1>
    
     <!-- adding nav section -->
@@ -32,13 +37,11 @@
         <li><a href="#" role="menuitem">Order Online</a></li>
         <li><a href="contact.html" role="menuitem">Contact</a></li>
       </ul>
-    </li>
-      </ul>
     </nav>
 
   </header>
 
-  <!-- image container section -->
+  <!-- adding image container section -->
   <section class="banner-header" role="banner">
     <div class="banner-box">
         <h3>Moody Matcha Treats</h3>
@@ -48,6 +51,7 @@
 
   <!-- heading and paragraph for about content -->
   <section id="content" class="about-us" role="region" aria-labelledby="about-heading">
+    <!-- adding h2 for section -->
     <h2 class="about-heading" id="about-heading">About Us</h2>
 
     <div id="about-content">
@@ -57,19 +61,21 @@
         passion for crafting delectable and elegant desserts into a full-time business. We are committed to giving our
         clients an amazing experience that creates a lasting impression, with a focus on healthier options and catering
         to new markets. Thank you for visiting our website; we hope to serve you soon!</p>
+        <a href="info.html" class="abt-btn" role="button">More</a>
     </div>
   </section>
 
-  <!-- infor about flavour for each mood -->
+  <!-- adding section about mood for each flavour -->
   <section class="sec-two" role="region" aria-labelledby="flavour-heading">
     <picture>
+        <!-- adding multiple images for image resizing -->
         <source srcset="images/cake320.png" media="(max-width: 479px)">
         <source srcset="images/cake480.png" media="(min-width: 480px)">
         <img class=cake src="images/cake.png" alt="matcha-cake-slice">
     </picture>
     
     <h2 class="flavour-heading" id="flavour-heading">Mood Flavour</h2>
-
+<!-- adding info about flavour for each mood -->
     <div id="flavour-content">
       <p class="flavourtown">Our website is a gateway to a world of flavors that cater to your every mood. At Dougberman Bakery, we believe
         that the right combination of tastes can enhance and complement your emotional state.</p>
@@ -77,6 +83,7 @@
     </div>
   </section>
   
+  <!-- adding contact form -->
   <section class="sec-three" role="region" aria-labelledby="cont-head">
       <h3 class="cont-head" id="cont-head">Contact Us</h3>
       <label class="full-name">Full Name</label>
@@ -91,6 +98,7 @@
       <button class="send" type="submit" role="button">Send</button>
   </section>
 
+  <!-- adding table elements -->
   <section>
     <div class="table" role="table">
       <h3 class="cont-head">Hours of operation</h3>

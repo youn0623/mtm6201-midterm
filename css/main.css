@@ -1,11 +1,11 @@
 /* body styling */
 body {
-    background-color: #6C3494; /* Sets the background color of the body */
-    color: white; /* Sets the text color to white */
-    margin: 0; /* Removes the default margin */
-    padding: 0; /* Removes the default padding */
-    font-family: Arial, sans-serif; /* Sets the font family to Arial or sans-serif */
-    width: 100%; /* Sets the width of the body to 100% */
+    background-color: #6C3494; 
+    color: white; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    width: 100%; 
   }
   
   /* paragraph styling */
@@ -16,39 +16,39 @@ body {
     font-size: 15px;
   }
   
-  /* top logo */
+  /* styling logo at the top of the page*/
   .logo {
     background-size: cover; /* Adjusts the background image size to cover the element */
-    background-position: center; /* Centers the background image */
-    max-height: 100%; /* Sets the maximum height of the element to 100% */
-    display: flex; /* Enables flexbox layout */
-    align-items: center; /* Aligns items vertically */
-    width: 100%; /* Sets the maximum width of the element to 100% */
+    background-position: center; 
+    max-height: 100%; 
+    display: flex; /* adds flexbox layout */
+    align-items: center; 
+    width: 100%; 
   }
   
   /* top heading */
   h1 {
     text-align: center; /* Centers the text horizontally */
-    font-size: 40px; /* Sets the font size to 40 pixels */
+    font-size: 40px; 
     padding: 20px; /* Adds padding around the heading */
   }
   
-  /* navigation style */
+  /* navigation stylingß */
   nav {
-    background-color: #CDDC29; /* Sets the background color of the navigation */
-    border: 1px solid #CDDC29; /* Sets a border around the navigation */
+    background-color: #CDDC29; /* background colour of the navigation */
+    border: 1px solid #CDDC29; /* adding a border around the navigation */
     text-decoration: none; /* Removes text decoration */
   }
   
   .menu-2 a:hover,
   .menu-2 a:focus {
-    background-color: #6C3494; /* Sets the background color when hovering/focusing on menu items */
-    color: #CDDC29; /* Sets the text color when hovering/focusing on menu items */
-    text-decoration: none; /* Removes text decoration */
+    background-color: #6C3494; /* Sets the background colour when hovering/focusing on menu items */
+    color: #CDDC29; /* Sets the text colour when hovering/focusing on menu items */
+    text-decoration: none; 
   }
   
   .menu-head {
-    font-weight: bold; /* Sets the font weight to bold for the menu heading */
+    font-weight: bold; 
   }
   
   .menu ul {
@@ -57,26 +57,25 @@ body {
   }
   
   .menu a {
-    display: flex; /* Enables flexbox layout */
+    display: flex; /* adds flexbox layout */
     padding: 1em 0; /* Adds padding around the menu items */
     text-decoration: none; /* Removes text decoration */
     align-items: center; /* Aligns items vertically */
     justify-content: center; /* Centers the content horizontally */
-    font-size: large; /* Sets the font size to large */
-    color: #6C3494; /* Sets the text color to #6C3494 */
-    text-decoration: none; /* Removes text decoration */
+    font-size: large; 
+    color: #6C3494; 
     list-style: none; /* Removes list style */
   }
   
   .menu a .menu a:link,
   .menu a:visited {
-    display: flex; /* Enables flexbox layout */
+    display: flex; /* adds flexbox layout */
     padding: 1em 0; /* Adds padding around the menu items */
     text-decoration: none; /* Removes text decoration */
   }
   
   .menu li:nth-child(1) {
-    background-color: #CDDC29; /* Sets the background color of the first menu item */
+    background-color: #CDDC29; /* Sets the background colour of the first menu item */
   }
   
   #navbar ul li {
@@ -84,10 +83,12 @@ body {
   }
   
   .menu {
-    padding-left: 0; /* Removes left padding from the menu */
+    padding-left: 0; /* Removing left padding from the menu */
   }
   
-  /* nav list animation */
+  /* -------------------
+  nav list animation 
+  --------------------*/
   .menu li a {
     padding: 10px 20px; /* Adds padding around the menu items */
     text-decoration: none; /* Removes text decoration */
@@ -95,69 +96,69 @@ body {
   }
   
   .menu ul {
-    height: 0; /* Sets the initial height of the menu to 0 */
+    height: 0; /* Mkes initial height of the menu to 0 */
     left: 0; /* Aligns the menu to the left */
     opacity: 0; /* Sets the initial opacity of the menu to 0 */
-    transition: all .4s ease; /* Adds a transition effect to the menu */
+    transition: all .4s ease; /* Adding a transition effect to the menu that lasts .4 seconds */
     padding-left: 0; /* Removes left padding from the menu */
   }
   
   .menu li:hover ul {
-    height: 245px; /* Sets the height of the menu when hovering over the menu item */
-    opacity: 1; /* Sets the opacity of the menu to 1 when hovering over the menu item */
+    height: 245px; 
+    opacity: 1; /* Makes opacity of menu to 1 when hovering over the menu item */
     transform: translateY(0); /* Moves the menu vertically */
   }
   
   /* matcha heading */
   .banner-header {
-    background-image: url(../images/Image_1.png); /* Sets the background image of the banner */
-    background-size: cover; /* Adjusts the background image size to cover the element */
+    background-image: url(../images/Image_1.png); /* Sets the background image for the banner */
+    background-size: cover; /* Adjusts the background image size to cover*/
     background-position: center; /* Centers the background image */
-    height: 400px; /* Sets the height of the banner */
+    height: 400px; /* Sets the height of banner */
     display: flex; /* Enables flexbox layout */
     align-items: center; /* Aligns items vertically */
   }
   
   /* styling banner box */
   .banner-box {
-    width: 100%; /* Sets the width of the banner box to 100% */
-    height: 100%; /* Sets the height of the banner box to 100% */
-    margin: 0 auto; /* Centers the banner box horizontally */
-    background-color: rgba(2, 2, 2, 0.5); /* Sets the background color of the banner box */
-    padding: 2em; /* Adds padding around the banner box */
-    padding-left: 15px; /* Adds left padding to the banner box */
+    width: 100%; 
+    height: 100%; 
+    margin: 0 auto; /* Centers banner box horizontally */
+    background-color: rgba(2, 2, 2, 0.5); /* Sets the background colour of the banner box */
+    padding: 2em; 
+    padding-left: 15px; 
     box-sizing: border-box; /* Includes padding and border in the total width and height of the element */
     display: flex; /* Enables flexbox layout */
-    flex-direction: column; /* Sets the flex direction to column */
+    flex-direction: column; /* Sets flex direction to column */
     justify-content: center; /* Centers the content vertically */
   }
   
   /* h3 styling */
   h3 {
-    text-align: center; /* Centers the text horizontally */
-    margin: 5px; /* Adds margin around the heading */
-    padding-top: 50px; /* Adds top padding to the heading */
-    font-size: 40px; /* Sets the font size to 40 pixels */
+    text-align: center; /*centers text*/
+    margin: 5px; 
+    padding-top: 50px; 
+    font-size: 40px;
   }
   
   /* styling banner button */
   .btn {
-    background-color: #6C3494; /* Sets the background color of the button */
-    padding: 20px; /* Adds padding around the button */
-    padding-top: 8px; /* Adds top padding to the button */
-    padding-bottom: 8px; /* Adds bottom padding to the button */
-    font-size: 15px; /* Sets the font size to 15 pixels */
-    text-decoration: none; /* Removes text decoration */
-    color: white; /* Sets the text color to white */
-    align-self: center; /* Aligns the button horizontally */
-    margin-top: 20px; /* Adds top margin to the button */
+    background-color: #6C3494; /* Sets the background colour of the button */   
+    padding: 20px; /* Adding padding around the button */
+    padding-top: 8px; /* Adding more top padding to the button */
+    padding-bottom: 8px; /* Adding more bottom padding to the button */
+    font-size: 15px; /* Sets button font size to 15 pixels */
+    text-decoration: none; /* Removes text decoration from text inside button */
+    color: white; /* Sets the text colour to white */
+    align-self: center;
+    margin-top: 20px; 
   }
   
   /* button animation */
   .btn:active {
-    background-color: #CDDC29; /* Sets the background color of the button when active */
-    color: black; /* Sets the text color to black when active */
-    transition: .5s ease; /* Adds a transition effect to the button */
+    background-color: #CDDC29; /* Sets the background colour of the button when active */
+    color: black; /* Sets the text colour to black when active */
+    transition: .5s ease; /* Adding a transition effect to the button */
   }
   
   .sec-three {
@@ -166,143 +167,171 @@ body {
     align-items: flex-start; /* Aligns items to the start of the containerhorizontally */
   }
   
-  /* Optional: Adjust spacing and alignment of elements */
+  /* Adjust spacing and alignment of elements */
   .sec-three > * {
     margin-bottom: 10px; /* Adds bottom margin to the child elements */
   }
   
-  /* Style the button */
+  /* Styling the button */
   #buttons {
-    background-color: white; /* Sets the background color of the button */
-    color: black; /* Sets the text color to black */
+    background-color: white; /* Sets the background colour of the button */
+    color: black; /* Sets the text colour to black */
     padding: 10px 20px; /* Adds padding around the button */
     border: none; /* Removes the border */
     cursor: pointer; /* Changes the cursor to a pointer on hover */
   }
   
+  /* contact heading section/ adding margin and padding */
   .cont-head {
-    margin-bottom: 40px; /* Adds bottom margin to the contact section heading */
-    margin-top: 40px; /* Adds top margin to the contact section heading */
-    padding-top: 0; /* Removes top padding from the contact section heading */
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+    padding-top: 0; 
   }
   
-  /* About us section */
+  /* ----------------
+  About us section 
+  ------------------*/
   .about-us {
-    text-align: center; /* Centers the text horizontally */
-    background-color: #CDDC29; /* Sets the background color of the about section */
-    color: black; /* Sets the text color to black */
+    text-align: center; /* Centers the text */
+    background-color: #CDDC29; /* Sets the background colour */
+    color: black; /* Sets the text colour to black */
     padding: 15px; /* Adds padding around the about section */
   }
   
   /* h2 styling */
   h2 {
     font-size: 40px; /* Sets the font size to 40 pixels */
-    text-align: center; /* Centers the text horizontally */
+    text-align: center; /* Centers the text*/
   }
   
+  /* styling text in about section */
   .about-text {
     font-size: 15px; /* Sets the font size to 15 pixels */
-    text-align: center; /* Centers the text horizontally */
+    text-align: center; /* Centers the text*/
   }
   
+  /* sizing sec-two */
   .sec-two {
     margin-top: 20px; /* Adds top margin to the section */
     padding: 15px; /* Adds padding around the section */
   }
   
+  /* styling image border and sizing */
   .cake {
-    border: 1px solid #CDDC29; /* Sets a border around the cake image */
-    margin: 0 auto; /* Centers the cake image horizontally */
-    width: 100%; /* Sets the width of the cake image to 100% */
+    border: 1px solid #CDDC29; /* adds border around cake image */
+    margin: 0 auto; /* Centers cake image*/
+    width: 100%; /* Sets the width of cake image to 100% */
   }
   
+  /* centering flavour-heading */
   .flavour-heading {
-    text-align: center; /* Centers the text horizontally */
+    text-align: center; /* Centers text*/
   }
   
+  /* centering text and ahcnaging font size */
   .flavourtown {
-    font-size: 15px; /* Sets the font size to 15 pixels */
-    text-align: center; /* Centers the text horizontally */
+    font-size: 15px; 
+    text-align: center; /* Centers text*/
   }
-  
+.abt-btn{
+  background-color: #6C3494; /* Sets the background colour of the button */
+  font-size: 15px; /* Sets button font size to 15 pixels */
+  text-decoration: none; /* Removes text decoration */
+  color: white; /* Change text colour to white */
+  margin-top: 20px; /* Adds top margin to button */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center;
+  align-items: center; 
+  text-align: center; /* Centers the text in button */
+  width: 20%; 
+  height: 30px; 
+  margin: 0 auto;
+}
+  /*-------------
+   styling menu button
+   --------------- */
   .menu-btn {
-    background-color: #CDDC29; /* Sets the background color of the button */
-    font-size: 15px; /* Sets the font size to 15 pixels */
+    background-color: #CDDC29; /* Sets the background colour of the button */
+    font-size: 15px; /* Sets button font size to 15 pixels */
     text-decoration: none; /* Removes text decoration */
-    color: black; /* Sets the text color to black */
-    margin-top: 20px; /* Adds top margin to the button */
+    color: black; /* Change text colour to black */
+    margin-top: 20px; /* Adds top margin to button */
     display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Centers the content vertically */
-    text-align: center; /* Centers the text within the button */
-    width: 20%; /* Sets the width of the button */
-    height: 30px; /* Sets the height of the button */
-    margin: 0 auto; /* Centers the button horizontally */
+    justify-content: center;
+    align-items: center; 
+    text-align: center; /* Centers the text in button */
+    width: 20%; 
+    height: 30px; 
+    margin: 0 auto;
   }
   
+  /* editing style of button when active */
   .menu-btn:active {
-    background-color: #6C3494; /* Sets the background color of the button when active */
-    color: white; /* Sets the text color to white when active */
-    transition: .5s ease; /* Adds a transition effect to the button */
+    background-color: #6C3494; /* Sets the background colour of the button when active */
+    color: white; /* Sets the text colour to white when active */
+    transition: .5s ease; /* Adds a transition effect to the button that lasts .5s */
   }
   
   /* section 3 */
   .sec-three {
-    background-color: #CDDC29; /* Sets the background color of the section */
-    color: black; /* Sets the text color to black */
-    align-items: center; /* Aligns items vertically */
+    background-color: #CDDC29; /* Sets the background colour of section */
+    color: black; /* Makes text colour to black */
+    align-items: center;
   }
   
-  /* table style */
+  /* -----------
+  table styling 
+  -------------*/
   table {
     border-collapse: collapse; /* Collapses the table borders */
-    width: 90%; /* Sets the width of the table */
-    margin: 0 auto; /* Centers the table horizontally */
-    color: black; /* Sets the text color to black */
-    background-color: white; /* Sets the background color of the table */
-    margin-top: 20px; /* Adds top margin to the table */
-    margin-bottom: 20px; /* Adds bottom margin to the table */
+    width: 90%; /* Sets width of the table to 90% */
+    margin: 0 auto; 
+    color: black; /* Sets text colour to black */
+    background-color: white; /* Sets the background colour of the table to white */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
   }
   
   th,
   td {
-    border: 1px solid black; /* Sets a border around the table cells */
-    padding: 15px; /* Adds padding around the table cells */
+    border: 1px solid black; /* Seting a border around the table cells */
+    padding: 15px; /* Adding padding around the table cells */
   }
   
   th {
-    background-color: #CDDC29; /* Sets the background color of the table header cells */
-    text-align: center; /* Centers the text horizontally */
+    background-color: #CDDC29; /* sets background colour */
+    text-align: center; /*centers text*/
   }
   
   /* contact us send button, adding margin */
   .send {
-    margin-bottom: 30px; /* Adds bottom margin to the send button */
-    margin-top: 10px; /* Adds top margin to the send button */
+    margin-bottom: 30px; 
+    margin-top: 10px; 
   }
   
-  /* footer */
+  /* adding footer styling */
   footer {
-    padding: 20px; /* Adds padding around the footer */
-    background-color: #CDDC29; /* Sets the background color of the footer */
-    color: #6C3494; /* Sets the text color to #6C3494 */
+    padding: 20px; 
+    background-color: #CDDC29; /* Sets backrgound colour */
+    color: #6C3494; /* changing text colour */
   }
   
   .sec-three {
-    width: 100%; /* Sets the width of the section to 100% */
+    width: 100%; 
     margin: 0 auto; /* Centers the section horizontally */
   }
   
+  /* setting up box size and width to the inputs and text area of the contect section */
   .sec-three input[type="text"],
   .sec-three input[type="email"],
   .sec-three textarea {
-    width: 90%; /* Sets the width of the input fields and textarea to 90% */
-    box-sizing: border-box; /* Includes padding and border in the total width and height of the elements */
+    width: 90%; 
+    box-sizing: border-box; /* Includes padding and border in width and height*/
   }
   
   .sec-three .send {
-    background-color: #6C3494; /* Sets the background color of the send button */
-    color: white; /* Sets the text color to white */
+    background-color: #6C3494; /*setting bacground colour */
+    color: white; /* Setting text colour */
     cursor: pointer; /* Changes the cursor to a pointer on hover */
   }
   
@@ -310,17 +339,17 @@ body {
 ----------Contact section---------
 ------------------------------- */
 
-  /* map container */
+  /* map container/ setting width and height */
   #map-container {
-    width: 100%; /* Sets the width of the map container to 100% */
-    height: auto; /* Sets the height of the map container to auto */
+    width: 100%; 
+    height: auto; 
   }
   
   /* adjusting map size */
   #map {
-    top: 0; /* Aligns the map to the top */
-    left: 0; /* Aligns the map to the left */
-    width: 100%; /* Sets the width of the map to 100% */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
   }
   
   /* changin line hight and gettin rid of list style for contact info */
@@ -371,14 +400,15 @@ h5{
 }
 
 .about-page.cont{
-    align-items: center;
+    align-items: center; /* Centering items */
 }
 
+/* styling cake image for info page */
 .cakes{
     width: 95%;
-    display: flex;
+    display: flex; /* Setting display flex */
     margin: 0 auto;
-    border: 2px solid #6C3494;
+    border: 2px solid #6C3494; /* Setting up border for image and adding colour to the border */
     margin-top: 20px;
 }
   
@@ -387,27 +417,29 @@ h5{
 -----------------------------------*/
 /* adding top of page skip link for main content */
 .skip-link {
-    position: absolute;
-    top: 14.8em;
+    position:absolute;
+    top: 16em;
     left: .5px;
-    background-color: #CDDC29;
-    color: #6C3494;
+    background-color: #CDDC29; /* Adding bacground colour to skip-link */
+    color: #6C3494; /* Setting text colour */
     padding: 10px;
     z-index: 9999;
   }
-/* adding bottom page skip link that bring you back to top of */
+/* adding bottom page skip link that bring you back to top of page */
 .skip-link2{
-        position: absolute;
+        position: absolute; /* setting poition to absolute */
         right: 1px;
         background-color: #6C3494;
         color: #CDDC29;
         padding: 10px;
-        z-index: 9999;
+        z-index: 9999; /* Setting up a high z-index to make sure element appears above that other elements */
 }
 
 /* ---------------------
---------animation-------
+Adding animation/Keyframes
 --------------------- */
+
+/* adding shaking effect keyframe */
 @keyframes shake {
     0% {
       transform: translateX(0);
@@ -426,14 +458,15 @@ h5{
     }
   }
 
+  /* styling the button that is animated */
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6C3494;
-    color: #fff;
+    background-color: #6C3494; /* adding background colour to button */
+    color: #fff; /* setting text colour to white */
     font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    animation: shake 1s infinite;
+    animation: shake 1s infinite; /* setting shake animation duration */
   }
