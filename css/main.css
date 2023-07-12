@@ -545,7 +545,7 @@ h5 {
 /* adding top of page skip link for main content */
 .skip-link {
     position:absolute;
-    top: 15em;
+    top: 21em;
     left: .5px;
     background-color: #CDDC29;
     /* Adding bacground colour to skip-link */
