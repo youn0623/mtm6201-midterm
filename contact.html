@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,73 +8,81 @@
     <title>Contact Us - Dougberman Bakery</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-      <!-- header section -->
-  <header>
-    <picture>
-        <source srcset="images/logo320.png" media="(max-width: 479px)">
-        <source srcset="images/logo480.png" media="(min-width: 480px)">
-        <!-- img tag for the original image -->
-        <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
-    </picture>
-   
-    <!-- adding nav section -->
-    <nav role="navigation">
-        <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
-      <ul class="menu">
-        <li><a class="menu-head">Menu</a>
-        <ul class="menu-2">
-        <li><a href="index.html" role="menuitem">Home</a></li>
-        <li><a href="info.html" role="menuitem">About</a></li>
-        <li><a href="#" role="menuitem">Catering</a></li>
-        <li><a href="#" role="menuitem">Products</a></li>
-        <li><a href="#" role="menuitem">Order Online</a></li>
-        <li><a href="contact.html" role="menuitem">Contact</a></li>
-      </ul>
-    </li>
-      </ul>
-    </nav>
 
-  </header>
-      <!-- adding contact section -->
-    <section class="contact-section" role="region">
-        <div class="contact-info">
+<body>
+    <!-- header section -->
+    <header>
+        <picture>
+            <source srcset="images/logo320.png" media="(max-width: 479px)">
+            <source srcset="images/logo480.png" media="(min-width: 480px)">
+            <!-- img tag for the original image -->
+            <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
+        </picture>
+
+        <!-- adding nav section -->
+        <nav>
+            <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
+            <ul class="menu" role="menu">
+                <li role="menuitem"><a class="menu-head">Menu</a>
+                    <ul class="menu-2" role="menu">
+                        <li><a href="index.html" role="menuitem">Home</a></li>
+                        <li><a href="info.html" role="menuitem">About</a></li>
+                        <li><a href="#" role="menuitem">Catering</a></li>
+                        <li><a href="#" role="menuitem">Products</a></li>
+                        <li><a href="#" role="menuitem">Order Online</a></li>
+                        <li><a href="contact.html" role="menuitem">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- adding contact section -->
+    <section class="contact-section">
+        <div class="contact-info" itemscope itemtype="https://schema.org/ContactPoint">
             <h2>Contact</h2>
-            <p class="about-text">For inquiries, orders, or any other questions, please feel free to reach out to us. We would be happy to assist you.</p>
+            <p class="about-text">For inquiries, orders, or any other questions, please feel free to reach out to us. We
+                would be happy to assist you.</p>
             <ul class="contact-type">
                 <!-- strong tag used to bold phone and email -->
-                <li><strong>Phone:</strong> +1 (613)-256-9844</li>
-                <li><strong>Email:</strong> info@dougbermanbakery.com</li>
+                <li itemprop="telephone"><strong>Phone:</strong> +1 (613)-256-9844</li>
+                <li itemprop="email"><strong>Email:</strong> info@dougbermanbakery.com</li>
             </ul>
         </div>
-      <!-- adding contact labels and inputs -->
-        <section class="sec-three" role="region" aria-labelledby="cont-head">
+    </section>
+        <!-- adding contact labels and inputs -->
+        <section class="sec-three">
             <h3 class="cont-head">Message Us</h3>
-            <label for="fullname" class="full-name">Full Name</label>
-            <input class="in-put" type="text" class="fullname" name="fullname">
-      
-            <label for="youremail" class="your-email">Email</label>
+            <label class="full-name">Full Name</label>
+            <input class="in-put" type="text" name="yourfullname">
+
+            <label class="your-email">Email</label>
             <input type="email" class="youremail" name="youremail">
-      
+
             <label for="yourmessage" id="your-message">Message</label>
             <textarea name="yourmessage" id="yourmessage" cols="30" rows="10"></textarea>
             <!-- adding "send" button -->
             <button class="send" type="submit">Send</button>
         </section>
         <!-- adding div for map area to show store loaction -->
-    <div class="Locate" id="map-container" role="region" aria-labelledby="location-heading">
-        <h3 class="cont-head" id="location-heading">Location</h3>
-        <ul class="locate-details">
-            <!-- strong tag used to bold address and hours -->
-            <li><strong>Address:</strong> 35 Martin St, Almonte, Ontario</li>
-            <li><strong>Hours:</strong> 9am-6pm</li>
-        </ul>
-        <!-- adding the map -->
-        <map name="place"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.940078431784!2d-76.1919508!3d45.2287798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd21a8efbbca777%3A0xa4763ef4ad6935a9!2s35%20Martin%20St%20S%2C%20Almonte%2C%20ON%20K0A%201A0!5e0!3m2!1sen!2sca!4v1688766287062!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></map>
-    </div>
-      <!-- adding footer section -->
-    <footer id="footer" role="contentinfo">
-       &copy; Kouj, 2023.
-    </footer>
+        <div class="Locate" id="map-container" role="region" aria-labelledby="location-heading" itemscope
+            itemtype="https://schema.org/Place">
+            <h3 class="cont-head" id="location-heading">Location</h3>
+            <ul class="locate-details">
+                <!-- strong tag used to bold address and hours -->
+                <li itemprop="address"><strong>Address:</strong> 35 Martin St, Almonte, Ontario</li>
+                <li itemprop="openingHoursSpecification"><strong>Hours:</strong> 9am-6pm</li>
+            </ul>
+            <!-- adding the map -->
+            <map name="place" itemprop="hasmap"><iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.940078431784!2d-76.1919508!3d45.2287798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd21a8efbbca777%3A0xa4763ef4ad6935a9!2s35%20Martin%20St%20S%2C%20Almonte%2C%20ON%20K0A%201A0!5e0!3m2!1sen!2sca!4v1688766287062!5m2!1sen!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></map>
+        </div>
+        <!-- adding footer section -->
+        <footer id="footer">
+            &copy; Kouj, 2023.
+        </footer>
 </body>
+
 </html>

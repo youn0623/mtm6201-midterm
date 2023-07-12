@@ -2,135 +2,143 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dougberman Bakery</title>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dougberman Bakery</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- adding a skiplink -->
     <a id=top class="skip-link" href="#content">Skip to main content</a>
-  <!-- header section -->
-  <header>
-    <!-- adding logo picture to website -->
-    <picture>
-        <!-- adding different image sizes for easier loading speeds -->
-        <source srcset="images/logo320.png" media="(max-width: 479px)">
-        <source srcset="images/logo480.png" media="(min-width: 480px)">
-        <!-- img tag for the original image -->
-        <img class=logo src="images/logo.png" alt="doughberman-company-logo">
-    </picture>
+    <!-- header section -->
+    <header>
+        <!-- adding logo picture to website -->
+        <picture>
+            <!-- adding different image sizes for easier loading speeds -->
+            <source srcset="images/logo320.png" media="(max-width: 479px)">
+            <source srcset="images/logo480.png" media="(min-width: 480px)">
+            <!-- img tag for the original image -->
+            <img class=logo src="images/logo.png" alt="doughberman-company-logo">
+        </picture>
 
-    <!-- adding h1 -->
-    <h1 id="title">Welcome</h1>
-   
-    <!-- adding nav section -->
-    <nav role="navigation">
-        <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
-      <ul class="menu" role="menubar">
-        <li><a class="menu-head" role="menuitem">Menu</a>
-        <ul class="menu-2" role="menu">
-        <li><a href="index.html" role="menuitem">Home</a></li>
-        <li><a href="info.html" role="menuitem">About</a></li>
-        <li><a href="#" role="menuitem">Catering</a></li>
-        <li><a href="#" role="menuitem">Products</a></li>
-        <li><a href="#" role="menuitem">Order Online</a></li>
-        <li><a href="contact.html" role="menuitem">Contact</a></li>
-      </ul>
-    </nav>
+        <!-- adding h1 -->
+        <h1 id="title">Welcome</h1>
 
-  </header>
+        <!-- adding nav section -->
+        <nav>
+            <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
+            <ul class="menu" role="menubar">
+                <li><a class="menu-head" role="menuitem">Menu</a>
+                    <ul class="menu-2" role="menu">
+                        <li><a href="index.html" role="menuitem">Home</a></li>
+                        <li><a href="info.html" role="menuitem">About</a></li>
+                        <li><a href="#" role="menuitem">Catering</a></li>
+                        <li><a href="#" role="menuitem">Products</a></li>
+                        <li><a href="#" role="menuitem">Order Online</a></li>
+                        <li><a href="contact.html" role="menuitem">Contact</a></li>  
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
-  <!-- adding image container section -->
-  <section class="banner-header" role="banner">
-    <div class="banner-box">
-        <h3>Moody Matcha Treats</h3>
-        <a href="#" class="btn">See Menu</a>
-    </div>
-  </section>
+    </header>
 
-  <!-- heading and paragraph for about content -->
-  <section id="content" class="about-us" role="region" aria-labelledby="about-heading">
-    <!-- adding h2 for section -->
-    <h2 class="about-heading" id="about-heading">About Us</h2>
-    <div id="about-content">
-        <!-- adding paragraph tag for about text -->
-      <p class="about-text">At Dougberman Bakery, we take pride in providing delicious and unique flavors to suit your every mood. Our
-        catering services have grown in popularity due to word of mouth, and we are now expanding our brand to provide
-        an amazing experience. Our goal is to open a full-service physical store on Elgin Street in Ottawa and turn our
-        passion for crafting delectable and elegant desserts into a full-time business. We are committed to giving our
-        clients an amazing experience that creates a lasting impression, with a focus on healthier options and catering
-        to new markets. Thank you for visiting our website; we hope to serve you soon!</p>
-        <!-- adding a tag for button -->
-        <a href="info.html" class="abt-btn" role="button">More</a>
-    </div>
-  </section>
+    <!-- adding image container section -->
+    <section class="banner-header" role="banner">
+        <div class="banner-box">
+            <h3>Moody Matcha Treats</h3>
+            <a href="#" class="btn">See Menu</a>
+        </div>
+    </section>
 
-  <!-- adding section about mood for each flavour -->
-  <section class="sec-two" role="region" aria-labelledby="flavour-heading">
-    <picture>
-        <!-- adding multiple images for image resizing -->
-        <source srcset="images/cake320.png" media="(max-width: 479px)">
-        <source srcset="images/cake480.png" media="(min-width: 480px)">
-        <img class=cake src="images/cake.png" alt="matcha-cake-slice">
-    </picture>
-    
-    <h2 class="flavour-heading" id="flavour-heading">Mood Flavour</h2>
-<!-- adding info about flavour for each mood -->
-    <div id="flavour-content">
-      <p class="flavourtown">Our website is a gateway to a world of flavors that cater to your every mood. At Dougberman Bakery, we believe
-        that the right combination of tastes can enhance and complement your emotional state.</p>
-        <a href="#" class="menu-btn" role="button">Explore</a>
-    </div>
-  </section>
-  
-  <!-- adding contact form -->
-  <section class="sec-three" role="region" aria-labelledby="cont-head">
-      <h3 class="cont-head" id="cont-head">Contact Us</h3>
-      <label class="full-name">Full Name</label>
-      <input class="in-put" type="text" name="fullname">
+    <!-- heading and paragraph for about content -->
+    <section id="content" class="about-us">
+        <!-- adding h2 for section -->
+        <h2 class="about-heading" id="about-heading">About Us</h2>
+        <div id="about-content" itemscope itemtype="https://schema.org/Text">
+            <!-- adding paragraph tag for about text -->
+            <p class="about-text" itemprop="description">At Dougberman Bakery, we take pride in providing delicious and
+                unique flavors to suit your every mood. Our
+                catering services have grown in popularity due to word of mouth, and we are now expanding our brand to
+                provide
+                an amazing experience. Our goal is to open a full-service physical store on Elgin Street in Ottawa and
+                turn our
+                passion for crafting delectable and elegant desserts into a full-time business. We are committed to
+                giving our
+                clients an amazing experience that creates a lasting impression, with a focus on healthier options and
+                catering
+                to new markets. Thank you for visiting our website; we hope to serve you soon!</p>
+            <!-- adding a tag for button -->
+            <a href="info.html" class="abt-btn" role="button">More</a>
+        </div>
+    </section>
 
-      <label class="your-email">Email</label>
-      <input type="email" class="youremail" name="youremail">
+    <!-- adding section about mood for each flavour -->
+    <section class="sec-two">
+        <picture>
+            <!-- adding multiple images for image resizing -->
+            <source srcset="images/cake320.png" media="(max-width: 479px)">
+            <source srcset="images/cake480.png" media="(min-width: 480px)">
+            <img class=cake src="images/cake.png" alt="matcha-cake-slice">
+        </picture>
 
-      <label for="yourmessage" id="your-message">Message</label>
-      <textarea name="yourmessage" id="yourmessage" cols="30" rows="10"></textarea>
-      <!-- adding "send" button -->
-      <button class="send" type="submit" role="button">Send</button>
-  </section>
+        <h2 class="flavour-heading" id="flavour-heading">Mood Flavour</h2>
+        <!-- adding info about flavour for each mood -->
+        <div id="flavour-content" itemscope itemtype="https://schema.org/Text">
+            <p class="flavourtown" itemprop="description">Our website is a gateway to a world of flavors that cater to
+                your every mood. At Dougberman Bakery, we believe
+                that the right combination of tastes can enhance and complement your emotional state.</p>
+            <a href="#" class="menu-btn" role="button">Explore</a>
+        </div>
+    </section>
 
-  <!-- adding table elements -->
-  <section>
-    <div class="table" role="table">
-      <h3 class="cont-head">Hours of operation</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Hours</th>
-          </tr>
-        </thead>
+    <!-- adding contact form -->
+    <section class="sec-three">
+        <h3 class="cont-head" id="cont-head">Contact Us</h3>
+        <label class="full-name">Full Name</label>
+        <input class="in-put" type="text" name="fullname">
 
-        <tbody>
-          <tr>
-            <td>Monday - Friday</td>
-            <td>9AM - 6PM</td>
-          </tr>
-          <tr>
-            <td>Saturday - Sunday</td>
-            <td>Closed</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-<!-- adding footer at botom of page which includes a skip ling to go back to the top of the page -->
-  <footer id="footer">
-    <a class="skip-link2" href="#top">Skip to top of page</a>
-    &copy; Kouj, 2023
-  </footer>
+        <label class="your-email">Email</label>
+        <input type="email" class="youremail" name="youremail">
+
+        <label for="yourmessage" id="your-message">Message</label>
+        <textarea name="yourmessage" id="yourmessage" cols="30" rows="10"></textarea>
+        <!-- adding "send" button -->
+        <button class="send" type="submit">Send</button>
+    </section>
+
+    <!-- adding table elements -->
+    <section>
+        <div class="table" role="table" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+            <h3 class="cont-head">Hours of operation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td itemprop="dayofweek">Monday - Friday</td>
+                        <td itemprop="opens">9AM - 6PM</td>
+                    </tr>
+                    <tr>
+                        <td itemprop="dayofweek">Saturday - Sunday</td>
+                        <td itemprop="closes">Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- adding footer at botom of page which includes a skip ling to go back to the top of the page -->
+    <footer id="footer">
+        <a class="skip-link2" href="#top">Skip to top of page</a>
+        &copy; Kouj, 2023
+    </footer>
 
 </body>
 

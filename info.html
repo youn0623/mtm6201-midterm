@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,61 @@
     <title>Dougberman Bakery</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <header id="header" role="banner">
-            <picture>
-                <!-- adding different image sizes for easier loading speeds -->
-                <source srcset="images/logo320.png" media="(max-width: 479px)">
-                <source srcset="images/logo480.png" media="(min-width: 480px)">
-                <!-- img tag for the original image -->
-                <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
-            </picture>
-           
-            <!-- adding nav section -->
-            <nav role="navigation">
-                <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
-              <ul class="menu">
+    <header id="header">
+        <picture>
+            <!-- adding different image sizes for easier loading speeds -->
+            <source srcset="images/logo320.png" media="(max-width: 479px)">
+            <source srcset="images/logo480.png" media="(min-width: 480px)">
+            <!-- img tag for the original image -->
+            <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
+        </picture>
+
+        <!-- adding nav section -->
+        <nav>
+            <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
+            <ul class="menu" role="menu">
                 <li><a class="menu-head" role="menuitem">Menu</a>
-                <ul class="menu-2" role="menu">
-                <li><a href="index.html" role="menuitem">Home</a></li>
-                <li><a href="info.html" role="menuitem">About</a></li>
-                <li><a href="#" role="menuitem">Catering</a></li>
-                <li><a href="#" role="menuitem">Products</a></li>
-                <li><a href="#" role="menuitem">Order Online</a></li>
-                <li><a href="contact.html" role="menuitem">Contact</a></li>
-              </ul>
-            </li>
-              </ul>
-            </nav>
+                    <ul class="menu-2" role="menu">
+                        <li><a href="index.html" role="menuitem">Home</a></li>
+                        <li><a href="info.html" role="menuitem">About</a></li>
+                        <li><a href="#" role="menuitem">Catering</a></li>
+                        <li><a href="#" role="menuitem">Products</a></li>
+                        <li><a href="#" role="menuitem">Order Online</a></li>
+                        <li><a href="contact.html" role="menuitem">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <!-- heading and paragraph for about content -->
-    <section role="region" aria-labelledby="about-heading">
+    <section>
         <!-- adding h2 for section -->
         <h2 id="about-heading">About Us</h2>
-        <div id="about-page-cont">
+        <div id="about-page-cont" itemscope itemtype="https://schema.org/Text">
             <!-- adding paragraph tags for about text. added multiple for spacing in between paragraphs -->
-            <p class="spec">At Dougberman Bakery, we take pride in crafting exquisite desserts that elevate your taste buds and create memorable experiences. Our journey began with a passion for baking and a commitment to delivering exceptional flavors. Over the years, our catering services have gained popularity through word of mouth, and we are thrilled to expand our brand to provide an even more amazing experience.</p>
-            <p class="spec">Our vision is to open a full-service physical store on Elgin Street in Ottawa, where we can showcase our delectable and elegant creations. From classic cakes to indulgent pastries, our team of skilled bakers combines traditional techniques with innovative ideas to bring you the finest desserts.</p>
-            <p class="spec">As a bakery that cares about your well-being, we also offer a range of healthier options. We understand the importance of catering to dietary needs, and our menu includes gluten-free, vegan, and low-sugar treats that never compromise on taste.</p>
-            <p class="spec">Thank you for visiting our website. We invite you to explore our menu, immerse yourself in the world of Dougberman Bakery, and allow us to delight you with our passion for baking.</p>
+            <p class="spec" itemprop="description">At Dougberman Bakery, we take pride in crafting exquisite desserts
+                that elevate your taste buds and create memorable experiences. Our journey began with a passion for
+                baking and a commitment to delivering exceptional flavors. Over the years, our catering services have
+                gained popularity through word of mouth, and we are thrilled to expand our brand to provide an even more
+                amazing experience.</p>
+            <p class="spec" itemprop="description">Our vision is to open a full-service physical store on Elgin Street
+                in Ottawa, where we can showcase our delectable and elegant creations. From classic cakes to indulgent
+                pastries, our team of skilled bakers combines traditional techniques with innovative ideas to bring you
+                the finest desserts.</p>
+            <p class="spec" itemprop="description">As a bakery that cares about your well-being, we also offer a range
+                of healthier options. We understand the importance of catering to dietary needs, and our menu includes
+                gluten-free, vegan, and low-sugar treats that never compromise on taste.</p>
+            <p class="spec" itemprop="description">Thank you for visiting our website. We invite you to explore our
+                menu, immerse yourself in the world of Dougberman Bakery, and allow us to delight you with our passion
+                for baking.</p>
         </div>
     </section>
-    
+
     <!-- adding section three/out specialties. used section three as class to style the sae as another area on a different page -->
-    <section class="sec-three" role="region" aria-labelledby="specialties-heading">
+    <section class="sec-three">
         <h2 id="specialties-heading">Our Specialty</h2>
         <div id="specialties-content">
             <picture>
@@ -60,24 +73,31 @@
                 <img class="cakes" src="images/cake.png" alt="matcha-cake-slice">
             </picture>
             <h5>Cakes for Every Occasion</h5>
-            <p class="spec">Whether you're celebrating a birthday, wedding, or any special milestone, our cakes are designed to make your moments even more memorable. From elegant tiered cakes to personalized creations, our skilled bakers will bring your vision to life.</p>
+            <p class="spec">Whether you're celebrating a birthday, wedding, or any special milestone, our cakes are
+                designed to make your moments even more memorable. From elegant tiered cakes to personalized creations,
+                our skilled bakers will bring your vision to life.</p>
         </div>
     </section>
     <!-- adding section for customer testimonials -->
-    <section class="sec-two" id="testimonials" role="region">
+    <section class="sec-two" id="testimonials">
         <h2>Customer Testimonials</h2>
-        <div class="testimonial" role="blockquote">
-            <p>"The cakes from Dougberman Bakery are simply divine. They were the highlight of our wedding reception, and our guests couldn't stop raving about them. The flavors were incredible, and the attention to detail in the design was outstanding. Highly recommended!"</p>
+        <div class="testimonial" itemscope itemtype="https://schema.org/Review">
+            <p itemprop="associatedReview">"The cakes from Dougberman Bakery are simply divine. They were the highlight
+                of our wedding reception, and our guests couldn't stop raving about them. The flavors were incredible,
+                and the attention to detail in the design was outstanding. Highly recommended!"</p>
             <cite> - Emily and Michael</cite>
         </div>
-        <div class="testimonial-2" role="blockquote">
-            <p>"I'm a regular customer at Dougberman Bakery, and I can't get enough of their pastries. The croissants are perfectly flaky, and the fillings are always delicious. It's my go-to place for a morning treat and a cup of coffee!"</p>
+        <div class="testimonial-2" itemscope itemtype="https://schema.org/Review">
+            <p itemprop="associatedReview">"I'm a regular customer at Dougberman Bakery, and I can't get enough of their
+                pastries. The croissants are perfectly flaky, and the fillings are always delicious. It's my go-to place
+                for a morning treat and a cup of coffee!"</p>
             <cite> - Sarah</cite>
         </div>
     </section>
-      <!-- adding footer section -->
-    <footer id="footer" role="contentinfo">
+    <!-- adding footer section -->
+    <footer id="footer">
         &copy; Kouj, 2023.
     </footer>
 </body>
+
 </html>
