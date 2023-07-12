@@ -505,7 +505,7 @@ footer {
 h5 {
     text-align: center;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
@@ -538,8 +538,8 @@ h5 {
 -----------------------------------*/
 /* adding top of page skip link for main content */
 .skip-link {
-    position: absolute;
-    top: 16em;
+    position:absolute;
+    top: 15em;
     left: .5px;
     background-color: #CDDC29;
     /* Adding bacground colour to skip-link */
