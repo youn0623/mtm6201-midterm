@@ -9,15 +9,17 @@
 </head>
 <body>
     <header id="header" role="banner">
-        <header>
             <picture>
+                <!-- adding different image sizes for easier loading speeds -->
                 <source srcset="images/logo320.png" media="(max-width: 479px)">
                 <source srcset="images/logo480.png" media="(min-width: 480px)">
+                <!-- img tag for the original image -->
                 <img class="logo" src="images/logo.png" alt="doughberman-company-logo">
             </picture>
            
             <!-- adding nav section -->
             <nav role="navigation">
+                <!-- added a ul and li in a ul section to sepreate functions of the different ul for specific styling -->
               <ul class="menu">
                 <li><a class="menu-head" role="menuitem">Menu</a>
                 <ul class="menu-2" role="menu">
@@ -31,14 +33,14 @@
             </li>
               </ul>
             </nav>
-        
-          </header>
     </header>
 
+    <!-- heading and paragraph for about content -->
     <section role="region" aria-labelledby="about-heading">
+        <!-- adding h2 for section -->
         <h2 id="about-heading">About Us</h2>
-      
         <div id="about-page-cont">
+            <!-- adding paragraph tags for about text. added multiple for spacing in between paragraphs -->
             <p class="spec">At Dougberman Bakery, we take pride in crafting exquisite desserts that elevate your taste buds and create memorable experiences. Our journey began with a passion for baking and a commitment to delivering exceptional flavors. Over the years, our catering services have gained popularity through word of mouth, and we are thrilled to expand our brand to provide an even more amazing experience.</p>
             <p class="spec">Our vision is to open a full-service physical store on Elgin Street in Ottawa, where we can showcase our delectable and elegant creations. From classic cakes to indulgent pastries, our team of skilled bakers combines traditional techniques with innovative ideas to bring you the finest desserts.</p>
             <p class="spec">As a bakery that cares about your well-being, we also offer a range of healthier options. We understand the importance of catering to dietary needs, and our menu includes gluten-free, vegan, and low-sugar treats that never compromise on taste.</p>
@@ -46,20 +48,22 @@
         </div>
     </section>
     
+    <!-- adding section three/out specialties. used section three as class to style the sae as another area on a different page -->
     <section class="sec-three" role="region" aria-labelledby="specialties-heading">
         <h2 id="specialties-heading">Our Specialty</h2>
-      
         <div id="specialties-content">
             <picture>
+                <!-- adding different image sizes for easier loading speeds -->
                 <source srcset="images/cake320.png" media="(max-width: 479px)">
                 <source srcset="images/cake480.png" media="(min-width: 480px)">
+                <!-- img tag for the original image -->
                 <img class="cakes" src="images/cake.png" alt="matcha-cake-slice">
             </picture>
             <h5>Cakes for Every Occasion</h5>
             <p class="spec">Whether you're celebrating a birthday, wedding, or any special milestone, our cakes are designed to make your moments even more memorable. From elegant tiered cakes to personalized creations, our skilled bakers will bring your vision to life.</p>
         </div>
     </section>
-    
+    <!-- adding section for customer testimonials -->
     <section class="sec-two" id="testimonials" role="region">
         <h2>Customer Testimonials</h2>
         <div class="testimonial" role="blockquote">
@@ -71,7 +75,7 @@
             <cite> - Sarah</cite>
         </div>
     </section>
-      
+      <!-- adding footer section -->
     <footer id="footer" role="contentinfo">
         &copy; Kouj, 2023.
     </footer>
